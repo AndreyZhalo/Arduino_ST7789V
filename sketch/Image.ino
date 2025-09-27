@@ -28,19 +28,13 @@ void setup() {
     while(1);
   }
   Serial.println("SD card initialized.");
-
-  // Вывод изображения
   
-}
+  // Вывод изображения
+   drawImage("image1.bmp");  // Укажите имя вашего файла
+  }
 
 void loop() {
 
-  drawImage("image1.bmp");  // Укажите имя вашего файла
-delay (20000);
-drawImage("image2.bmp");
-delay (20000);
-drawImage("image3.bmp");
-delay (20000);
 }
 
 // Функция для отрисовки изображения
